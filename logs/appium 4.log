@@ -1,0 +1,62 @@
+2025-12-27 10:49:36:325 [Appium] Welcome to Appium v3.0.2
+2025-12-27 10:49:36:326 [Appium] Non-default server args:
+2025-12-27 10:49:36:326 [Appium] { address: '127.0.0.1' }
+2025-12-27 10:49:36:326 [Appium] The autodetected Appium home path: /Users/joeinianpeterj/.appium
+2025-12-27 10:49:36:327 [Appium] Attempting to load driver uiautomator2...
+2025-12-27 10:49:36:327 [Appium] Requiring driver at /Users/joeinianpeterj/.appium/node_modules/appium-uiautomator2-driver/build/index.js
+2025-12-27 10:49:36:717 [Appium] AndroidUiautomator2Driver has been successfully loaded in 0.390s
+2025-12-27 10:49:36:725 [Appium] Appium REST http interface listener started on http://127.0.0.1:4723
+2025-12-27 10:49:36:726 [Appium] Available drivers:
+2025-12-27 10:49:36:726 [Appium]   - uiautomator2@5.0.3 (automationName 'UiAutomator2')
+2025-12-27 10:49:36:726 [Appium] No plugins have been installed. Use the "appium plugin" command to install the one(s) you want to use.
+2025-12-27 10:49:36:839 [20e93e76][HTTP] --> GET /session/20e93e76-ae09-4c8e-8acc-1b7001eee88f/timeouts 
+2025-12-27 10:49:36:859 [20e93e76][AppiumDriver@7d46] Encountered internal error running command: NoSuchDriverError: A session is either terminated or not started
+    at asyncHandler (/usr/local/lib/node_modules/appium/node_modules/@appium/base-driver/lib/protocol/protocol.ts:329:15)
+    at /usr/local/lib/node_modules/appium/node_modules/@appium/base-driver/lib/protocol/protocol.ts:524:15
+    at Layer.handleRequest (/usr/local/lib/node_modules/appium/node_modules/router/lib/layer.js:152:17)
+    at next (/usr/local/lib/node_modules/appium/node_modules/router/lib/route.js:157:13)
+    at Route.dispatch (/usr/local/lib/node_modules/appium/node_modules/router/lib/route.js:117:3)
+    at handle (/usr/local/lib/node_modules/appium/node_modules/router/index.js:435:11)
+    at Layer.handleRequest (/usr/local/lib/node_modules/appium/node_modules/router/lib/layer.js:152:17)
+    at /usr/local/lib/node_modules/appium/node_modules/router/index.js:295:15
+    at param (/usr/local/lib/node_modules/appium/node_modules/router/index.js:600:14)
+    at param (/usr/local/lib/node_modules/appium/node_modules/router/index.js:610:14)
+    at processParams (/usr/local/lib/node_modules/appium/node_modules/router/index.js:664:3)
+    at next (/usr/local/lib/node_modules/appium/node_modules/router/index.js:291:5)
+    at logger (/usr/local/lib/node_modules/appium/node_modules/morgan/index.js:144:5)
+    at Layer.handleRequest (/usr/local/lib/node_modules/appium/node_modules/router/lib/layer.js:152:17)
+    at trimPrefix (/usr/local/lib/node_modules/appium/node_modules/router/index.js:342:13)
+    at /usr/local/lib/node_modules/appium/node_modules/router/index.js:297:9
+    at processParams (/usr/local/lib/node_modules/appium/node_modules/router/index.js:582:12)
+    at next (/usr/local/lib/node_modules/appium/node_modules/router/index.js:291:5)
+    at jsonParser (/usr/local/lib/node_modules/appium/node_modules/body-parser/lib/types/json.js:100:7)
+    at Layer.handleRequest (/usr/local/lib/node_modules/appium/node_modules/router/lib/layer.js:152:17)
+    at trimPrefix (/usr/local/lib/node_modules/appium/node_modules/router/index.js:342:13)
+    at /usr/local/lib/node_modules/appium/node_modules/router/index.js:297:9
+2025-12-27 10:49:36:865 [20e93e76][HTTP] <-- GET /session/20e93e76-ae09-4c8e-8acc-1b7001eee88f/timeouts 404 24 ms - 2250 
+2025-12-27 10:49:48:618 [20e93e76][HTTP] --> GET /session/20e93e76-ae09-4c8e-8acc-1b7001eee88f/timeouts 
+2025-12-27 10:49:48:620 [20e93e76][AppiumDriver@7d46] Encountered internal error running command: NoSuchDriverError: A session is either terminated or not started
+    at asyncHandler (/usr/local/lib/node_modules/appium/node_modules/@appium/base-driver/lib/protocol/protocol.ts:329:15)
+    at /usr/local/lib/node_modules/appium/node_modules/@appium/base-driver/lib/protocol/protocol.ts:524:15
+    at Layer.handleRequest (/usr/local/lib/node_modules/appium/node_modules/router/lib/layer.js:152:17)
+    at next (/usr/local/lib/node_modules/appium/node_modules/router/lib/route.js:157:13)
+    at Route.dispatch (/usr/local/lib/node_modules/appium/node_modules/router/lib/route.js:117:3)
+    at handle (/usr/local/lib/node_modules/appium/node_modules/router/index.js:435:11)
+    at Layer.handleRequest (/usr/local/lib/node_modules/appium/node_modules/router/lib/layer.js:152:17)
+    at /usr/local/lib/node_modules/appium/node_modules/router/index.js:295:15
+    at param (/usr/local/lib/node_modules/appium/node_modules/router/index.js:600:14)
+    at param (/usr/local/lib/node_modules/appium/node_modules/router/index.js:610:14)
+    at processParams (/usr/local/lib/node_modules/appium/node_modules/router/index.js:664:3)
+    at next (/usr/local/lib/node_modules/appium/node_modules/router/index.js:291:5)
+    at logger (/usr/local/lib/node_modules/appium/node_modules/morgan/index.js:144:5)
+    at Layer.handleRequest (/usr/local/lib/node_modules/appium/node_modules/router/lib/layer.js:152:17)
+    at trimPrefix (/usr/local/lib/node_modules/appium/node_modules/router/index.js:342:13)
+    at /usr/local/lib/node_modules/appium/node_modules/router/index.js:297:9
+    at processParams (/usr/local/lib/node_modules/appium/node_modules/router/index.js:582:12)
+    at next (/usr/local/lib/node_modules/appium/node_modules/router/index.js:291:5)
+    at jsonParser (/usr/local/lib/node_modules/appium/node_modules/body-parser/lib/types/json.js:100:7)
+    at Layer.handleRequest (/usr/local/lib/node_modules/appium/node_modules/router/lib/layer.js:152:17)
+    at trimPrefix (/usr/local/lib/node_modules/appium/node_modules/router/index.js:342:13)
+    at /usr/local/lib/node_modules/appium/node_modules/router/index.js:297:9
+2025-12-27 10:49:48:622 [20e93e76][HTTP] <-- GET /session/20e93e76-ae09-4c8e-8acc-1b7001eee88f/timeouts 404 3 ms - 2250 
+2025-12-27 10:49:59:082 [Appium] Received SIGINT - shutting down

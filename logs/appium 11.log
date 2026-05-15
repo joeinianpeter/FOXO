@@ -1,0 +1,12 @@
+2025-12-28 17:10:16:949 [Appium] Welcome to Appium v3.0.2
+2025-12-28 17:10:16:951 [Appium] Non-default server args:
+2025-12-28 17:10:16:952 [Appium] { address: '127.0.0.1' }
+2025-12-28 17:10:16:953 [Appium] The autodetected Appium home path: /Users/joeinianpeterj/.appium
+2025-12-28 17:10:16:953 [Appium] Attempting to load driver uiautomator2...
+2025-12-28 17:10:16:955 [Appium] Requiring driver at /Users/joeinianpeterj/.appium/node_modules/appium-uiautomator2-driver/build/index.js
+2025-12-28 17:10:17:576 [Appium] AndroidUiautomator2Driver has been successfully loaded in 0.621s
+2025-12-28 17:10:17:587 [Appium] Appium REST http interface listener started on http://127.0.0.1:4723
+2025-12-28 17:10:17:588 [Appium] Available drivers:
+2025-12-28 17:10:17:588 [Appium]   - uiautomator2@5.0.3 (automationName 'UiAutomator2')
+2025-12-28 17:10:17:588 [Appium] No plugins have been installed. Use the "appium plugin" command to install the one(s) you want to use.
+2025-12-28 17:11:02:697 [Appium] Received SIGTERM - shutting down
