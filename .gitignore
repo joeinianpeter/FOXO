@@ -36,3 +36,4 @@ build/
 
 ### Mac OS ###
 .DS_Storesrc/test/resources/apk/
+.DS_Store
